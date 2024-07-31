@@ -84,11 +84,11 @@ touch "$HOME/Desktop/Code/IO/input.txt" "$HOME/Desktop/Code/IO/output.txt" "$HOM
 # Clone the repository
 echo "Cloning repository..."
 mkdir -p "$HOME/Desktop/Code/GitDir"
-git clone https://github.com/partho-das/CompetitiveProgrmming.git "$HOME/Desktop/Code/GitDir/"
+git clone https://github.com/partho-das/Automation_Scripts.git "$HOME/Desktop/Code/GitDir/"
 
 # Copy Sublime Text build files and workspace to the Sublime Text User directory
 echo "Copying Sublime Text configuration files..."
-SOURCE_FILES_DIR="$HOME/Desktop/Code/GitDir/CompetitiveProgrmming/Build_Sublime"
+SOURCE_FILES_DIR="$HOME/Desktop/Code/GitDir/Automation_Scripts/Build_Sublime"
 CONFIG_DIR="$HOME/.config/sublime-text/Packages/User"
 mkdir -p "$CONFIG_DIR"
 cp "$SOURCE_FILES_DIR/"*.sublime-build "$CONFIG_DIR/"
